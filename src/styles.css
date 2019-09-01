@@ -30,9 +30,14 @@ width:1100px;
 .home{
   background-color:yellow;
 }
-.avatar-display{display:flex;}
+.avatar-display{display:flex;
+  justify-content: space-around;}
 .footer{position:fixed;
 bottom:10px;}
 .icon{display:flex;
 flex-wrap:wrap;
+justify-content: space-between;
 }
+.avatar-display{display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;}

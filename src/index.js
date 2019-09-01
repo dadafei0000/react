@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./styles.css";
 import Header from "./header";
-
+import "./style.styl";
 import { createStore } from "redux";
 import { Provider } from "react-redux";
 import rootReducer from "./reducers/rootReducer.js";

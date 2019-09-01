@@ -20,7 +20,7 @@ import { useSelector, useDispatch } from "react-redux";
 import MyHome from "./components/home";
 import MyColor from "./components/colors";
 import Avata from "./components/Avatar";
-import Button from "./components/Button";
+import Buttonn from "./components/Button";
 import Chips from "./components/Chips";
 import Route from "react-router-dom/Route";
 import Paper from "@material-ui/core/Paper";
@@ -169,7 +169,7 @@ export default function PersistentDrawerLeft() {
             <Route exact path="/home" component={MyHome} />
             <Route exact path="/colors" component={MyColor} />
             <Route exact path="/Avatar" component={Avata} />
-            <Route exact path="/Button" component={Button} />
+            <Route exact path="/Button" component={Buttonn} />
             <Route exact path="/Chips" component={Chips} />
             <Route exact path="/Iconography" component={MyIconography} />
             <Route exact path="/Area" component={MyArea} />

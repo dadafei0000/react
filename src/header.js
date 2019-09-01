@@ -33,7 +33,8 @@ import { BrowserRouter as Router, NavLink,Link} from "react-router-dom";
 import App from "./App";
 import Righttop from "./righttop";
 import Footer from './footer';
-
+import MyIconography from "./components/Iconograpy";
+import MyArea from "./components/Area";
 
 const drawerWidth = 240;
 
@@ -170,11 +171,13 @@ export default function PersistentDrawerLeft() {
             <Route exact path="/Avatar" component={Avata} />
             <Route exact path="/Button" component={Button} />
             <Route exact path="/Chips" component={Chips} />
+            <Route exact path="/Iconography" component={MyIconography} />
+            <Route exact path="/Area" component={MyArea} />
           </div>
         </Paper>
         <div className="footer">
-<Footer/>
-</div>
+              <Footer/>
+        </div>
     
       </main>
       <br/>

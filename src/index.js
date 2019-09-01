@@ -6,7 +6,7 @@ import Header from "./header";
 import { createStore } from "redux";
 import { Provider } from "react-redux";
 import rootReducer from "./reducers/rootReducer.js";
-import { BrowserRouter as Router,NavLink } from "react-router-dom";
+import { BrowserRouter as Router} from "react-router-dom";
 
 const store = createStore(rootReducer);
 

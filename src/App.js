@@ -121,12 +121,14 @@ export default function App() {
             {SubComponents2}
           </List>
         </Collapse>
+        <NavLink to="/Iconography" exact>
         <ListItem button>
           <ListItemIcon>
             <BlurOnIcon />
           </ListItemIcon>
           <ListItemText primary="Iconography" />
         </ListItem>
+        </NavLink>
       </div>
     </List>
   );

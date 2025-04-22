@@ -43,10 +43,10 @@ const childre1=()=>
   <div className="buttons">
       <Button variant="contained">Default</Button>
       <Button variant="contained" color="primary">
-          Primary
+          computer
       </Button>
       <Button variant="contained" color="secondary">
-          Secondary
+          clothes
       </Button>
       <Button variant="contained" disabled>
           Disabled
@@ -55,16 +55,16 @@ const childre1=()=>
   <h2><b>Size</b></h2>
   <div className="buttons">
       <Button size="small" variant="contained">
-          Small
+          mattress
       </Button>
       <Button size="medium" variant="contained" color="secondary">
-          Medium
+          woodboard
       </Button>
       <Button size="medium" variant="contained" disabled>
           Disabled
       </Button>
       <Button size="large" variant="contained" color="primary">
-          Large
+          shoe
       </Button>
   </div>
 </div>)

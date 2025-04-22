@@ -17,10 +17,10 @@ const childre1=()=>
   <div className="buttons">
       <Button>Default</Button>
       <Button color="primary">
-          Primary
+          babycrib
       </Button>
       <Button color="secondary">
-          Secondary
+          babytoy
       </Button>
       <Button disabled>
           Disabled
@@ -30,10 +30,10 @@ const childre1=()=>
   <div className="buttons">
       <Button variant="outlined">Default</Button>
       <Button variant="outlined" color="primary">
-          Primary
+          chair
       </Button>
       <Button variant="outlined" color="secondary">
-          Secondary
+          desk
       </Button>
       <Button variant="outlined" disabled>
           Disabled
